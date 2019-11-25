@@ -1,0 +1,22 @@
+include <stdio.h>
+#include <conio.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+
+main(){
+float nota=0, media=0;
+int contador, aluno;
+
+printf("Digite a quantidade de alunos: ");
+scanf("%d",&aluno);
+system("cls");
+
+for( contador=1;contador<=aluno;contador++){
+	printf("\nDigite a nota do aluno %d :",contador);
+	scanf("%f",&nota);
+	media=media+nota;
+}
+printf("\nvalor da media: %f ",media/aluno);
+}

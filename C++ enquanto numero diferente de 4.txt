@@ -1,0 +1,30 @@
+include <stdio.h>
+#include <conio.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+
+main(){
+	int numero=0;
+		
+while(numero!=-1)
+		{
+
+printf("Digite um numero entre 1 e 4 \n");
+scanf("%d", &numero);
+	
+	if(numero>=1 & numero<=4)
+			{
+			printf("parabens \n");
+		    printf("%d\n", numero);
+			break;
+		}
+			
+	 else
+			{
+			printf("entrada invalida, digite novamente\n");
+			
+			}
+		}
+}

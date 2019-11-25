@@ -1,0 +1,33 @@
+#include <iostream>
+#include <iostream>
+#include<cstdlib>
+
+
+	
+float FparaC(void){
+	float grauf,resultado;
+	printf("\ndigite a temperatura em graus Fahrenheit: ");
+	scanf("%f",&grauf);
+	resultado=(grauf-32)/1.8;
+	printf("\n o resulado em graus Celcius é: %f ",resultado);
+}
+
+float CparaF(void){
+	float grauc,resultado;
+	printf("\ndigite a temperatura em graus Celsius: ");
+	scanf("%f",&grauc);
+	resultado=grauc*1.8+32;
+	printf("\n o resulado em graus Fahrenheit é: %f ",resultado);
+}
+
+main(){
+ 	
+	printf("\n converta a temperatura em graus Fahrenheit para Clesius: ");
+	FparaC();
+	printf("\n converta a temperatura em graus Clesius para Fahrenheit: ");
+    CparaF(); 	
+ 	
+ 	
+ }
+
+

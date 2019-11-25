@@ -1,0 +1,31 @@
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+main() 
+{
+
+float result1=0, result2=0;
+int numero=0;
+
+printf("Digite um numero entre 1 e 100 \n");
+scanf("%d", &numero);
+if(numero>50)
+			{
+			result1=numero/2;
+			printf("o numero dividido por 2 é \n");	
+			printf("%f\n", result1);
+
+			}
+	else
+			{
+			printf("o numero é menor do que 50\n");
+			printf("%d\n", numero);	
+			}
+	}		
+
